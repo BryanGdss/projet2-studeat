@@ -1,0 +1,32 @@
+h1{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+}
+
+h2{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+}
+
+.card{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.card a {
+border-color: #883810;
+background-color: #F48248;
+}
+
+.card a:hover{
+background-color: #bd5622;
+}
+
+.text{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+
+}
