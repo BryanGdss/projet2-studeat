@@ -1,3 +1,9 @@
+#corps{
+background-color: #388542;
+
+
+}
+
 h1{
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
@@ -27,6 +33,33 @@ background-color: #bd5622;
 .text{
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
+background-color: #388542;
+}
+
+.nav-item a{
+color: black;
+background-color: #F3F3F3;
+border-color: #636363;
+}
+
+.nav-item a:hover{
+background-color: #6f6d6c;
+}
+
+.card-body h3{
+color: #F48248;
+}
+
+.card h5{
+color:#F48248
+}
+.recherche{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.card h2 {
+color: #F48248;
 
 
 }
