@@ -70,6 +70,25 @@ color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+.recherche button{
+    border-color: #883810;
+    background-color: #F48248;
+}
+.recherche svg{
+color: white;
+
+}
+.recherche button:hover{
+    background-color: #883810;
+    background-color: #bd5622;
+}
+footer{
+background-color: white;
+
+}
+footer p{
+text-align: left;
 
 }
