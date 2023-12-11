@@ -143,22 +143,59 @@ width: 20%;
 display: flex;
 text-align: center;
 height: 200px;
-border-color: #883810;
-background-color:#ffb590 ;
+border-color: #1a3e20;
+background-color:#449653 ;
 align-items: center;
-text-decoration:  none;
+
 }
 
 .card-custom:hover{
   height: 200px;
   border-color: #883810;
-  background-color: #F48248;
+  background-color: #FF8D40;
 text-align: center;
 align-items: center;
 }
 
-.menuchoix .card-title{
-text-decoration: none;
 
+#galerie{
+display: grid;
+grid-template-columns: auto auto auto ;
+grid-template-rows: auto auto;
 
 }
+
+#galerie div {
+  float: left ;
+  position: relative;
+  border: 3px solid #666;
+  margin: 10px;
+  padding:5px;
+  background-color: #efefef;
+  height:225px;
+}
+#galerie div p {
+  position: absolute ;
+  top: 120px;
+  background-color: rgba(255, 255, 255, 0.6);
+  width:280px;
+  font-size: 20px;
+  font-weight: bold;
+  padding:10px;
+ 
+}
+
+#galerie div:hover {
+  border-color: #6f3a09;
+  background-color: #fe8a3c;
+}
+#galerie div:hover p {
+  display: none;
+}
+
+#galerie div img {
+height: 200px;
+border-radius: 6%;
+
+}
+
