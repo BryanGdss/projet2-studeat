@@ -1,5 +1,5 @@
 #corps{
-background-color: #388542;
+background-color: #449653;
 
 
 }
@@ -33,7 +33,7 @@ background-color: #bd5622;
 .text{
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
-background-color: #388542;
+background-color: #449653;
 }
 
 .nav-item a{
@@ -140,21 +140,25 @@ width: 20%;
     }
 
 .menuchoix{
-display: flex;
+  display: flex;
 text-align: center;
 height: 200px;
 border-color: #1a3e20;
 background-color:#449653 ;
 align-items: center;
 
-}
 
+}
+.card-custom{
+ 
+height: 200px;
+
+}
 .card-custom:hover{
-  height: 200px;
-  border-color: #883810;
-  background-color: #FF8D40;
-text-align: center;
-align-items: center;
+border-radius: 10%;
+border-color: #883810;
+background-color: #FF8D40;
+
 }
 
 
@@ -198,4 +202,22 @@ height: 200px;
 border-radius: 6%;
 
 }
+.card-custom a{
+  text-decoration: none;
+  color: white;
 
+
+}
+footer{
+background-color: #449653;
+}
+
+footer a{
+text-decoration: none;
+color: #F3F3F3;
+}
+
+footer a:hover{
+color: #636161;
+
+}
