@@ -150,8 +150,7 @@ align-items: center;
 
 }
 .card-custom{
- 
-height: 200px;
+
 
 }
 .card-custom:hover{
@@ -202,6 +201,13 @@ height: 200px;
 border-radius: 6%;
 
 }
+#galerie a{
+text-decoration: none;
+color: black;
+
+}
+
+
 .card-custom a{
   text-decoration: none;
   color: white;
@@ -219,5 +225,16 @@ color: #F3F3F3;
 
 footer a:hover{
 color: #636161;
+
+}
+
+#commande{
+  border-color: #883810;
+  background-color: #F48248;
+
+}
+
+#commande:hover{
+  background-color: #bd5622;
 
 }
