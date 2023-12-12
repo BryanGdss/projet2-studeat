@@ -142,7 +142,6 @@ width: 20%;
 .menuchoix{
   display: flex;
 text-align: center;
-height: 200px;
 border-color: #1a3e20;
 background-color:#449653 ;
 align-items: center;
@@ -166,7 +165,7 @@ grid-template-rows: auto auto;
 }
 
 #galerie div {
-  float: left ;
+  float: flex ;
   position: relative;
   border: 3px solid #666;
   margin: 10px;
@@ -229,6 +228,7 @@ color: #636161;
 #commande{
   border-color: #883810;
   background-color: #F48248;
+ 
 
 }
 
@@ -236,3 +236,4 @@ color: #636161;
   background-color: #bd5622;
 
 }
+
