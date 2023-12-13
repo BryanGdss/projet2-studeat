@@ -48,8 +48,14 @@ font-family:'Coolvetica';
 font-size: 2rem;
 text-align: center;
 background-color: #449653;
-}
 
+align-items: center;
+}
+.text h2{
+ font-weight: bold;
+  
+  align-items: center;
+  }
 .nav-item a{
 color: black;
 background-color: #F3F3F3;
@@ -62,10 +68,12 @@ background-color: #6f6d6c;
 
 .card-body h3{
 color: #F48248;
+font-weight: bold;
 }
 
 .card h5{
-color:#F48248
+color:#F48248;
+font-weight: bold;
 
 }
 
@@ -181,7 +189,7 @@ grid-template-rows: auto auto;
 }
 
 #galerie div {
-  float: flex ;
+
   position: relative;
   border: 3px solid #666;
   margin: 10px;
@@ -227,19 +235,37 @@ color: black;
 
 }
 footer{
+  font-family: 'Coolvetica';
 background-color: #449653;
+font-weight: bold;
+font-size: 2rem;
 }
 
-footer a{
+footer .liens{
 text-decoration: none;
 color: #F3F3F3;
-font-size: large;
+font-size: larger;
+
 }
 
-footer a:hover{
+footer .liens:hover{
 color: #636161;
 
 }
+footer div{
+text-align: center;
+
+}
+.footerimg{
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+height: 15%;
+width: 15%;
+}
+
+
 
 #commande{
   border-color: #883810;
@@ -253,3 +279,46 @@ color: #636161;
 
 }
 
+
+
+
+.Social-media{
+  display: flex;
+  justify-content: end ;
+}
+.RS{
+  display: flex;
+  height: 45px;
+  width: 45px;
+  margin: 0 15px;
+  border-radius: 8px;
+  align-items: end;
+  justify-content: end;
+  text-decoration: none;
+
+  transition: transform 0.5s
+}
+.RS i{
+  font-size: 50px;
+  color:#e6e1e1;
+  transition: transform 0.5s;
+}
+.RS:hover{
+  
+  transform: translateY(2px);
+}
+.RS:hover i{
+  transform: scale(0.90);
+}
+.RS:hover .fa-facebook{
+  color: #3b5998;
+}
+.RS:hover .fa-twitter{
+  color: #00acee;
+}
+.RS:hover .fa-lin{
+  color: #4fce5d;
+}
+.RS:hover .fa-instagram{
+  color: #f14843;
+}
