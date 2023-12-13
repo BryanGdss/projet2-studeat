@@ -1,11 +1,8 @@
-@font-face {
-  font-family: 'Coolvetica';
-  src: url('fonts/coolvetica rg.otf');
-}
+
 
 body{
-  font-family:'Coolvetica';
-  font-size: 1rem;
+  font-family: Helvetica;
+  font-size: 1.5rem;
 }
 
 #corps{
@@ -15,23 +12,24 @@ background-color: #449653;
 }
 
 h1{
-font-family: Arial, Helvetica, sans-serif;
+font-family: Helvetica, sans-serif;
 text-align: center;
-
+font-weight: bold;
 }
 
 h2{
-font-family: Arial, Helvetica, sans-serif;
+font-family: Helvetica, sans-serif;
 text-align: center;
+font-weight: bold;
 }
 
 .card{
 text-align: center;
-font-family: Arial, Helvetica, sans-serif;
+font-family: Helvetica, sans-serif;
 }
 .card p{
-  font-family:'Coolvetica';
-font-size: 2rem;
+font-family:Helvetica;
+font-size: 1.5rem;
 }
 
 .card a {
@@ -44,8 +42,8 @@ background-color: #bd5622;
 }
 
 .text{
-font-family:'Coolvetica';
-font-size: 2rem;
+font-family:Helvetica;
+font-size: 1.5rem;
 text-align: center;
 background-color: #449653;
 
@@ -53,7 +51,6 @@ align-items: center;
 }
 .text h2{
  font-weight: bold;
-  
   align-items: center;
   }
 .nav-item a{
@@ -85,7 +82,7 @@ justify-content: center;
 
 .card h2 {
 color: #F48248;
-font-family:'Coolvetica';
+font-family:Helvetica;
 }
 
 .text h2{
@@ -235,10 +232,10 @@ color: black;
 
 }
 footer{
-  font-family: 'Coolvetica';
+  font-family: Helvetica;
 background-color: #449653;
 font-weight: bold;
-font-size: 2rem;
+font-size: 1.5rem;
 }
 
 footer .liens{
