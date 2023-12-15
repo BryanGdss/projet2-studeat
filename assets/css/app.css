@@ -1,0 +1,309 @@
+body{
+    font-family: Helvetica;
+    font-size: 1.5rem;
+  }
+
+  .logo{
+
+    width:30%;
+    height:30;
+  }
+  
+  #corps{
+  background-color: #449653;
+  }
+  
+  h1{
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  }
+  
+  h2{
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  }
+  
+  .card{
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  }
+  .card p{
+  font-family:Helvetica;
+  font-size: 1.5rem;
+  }
+  
+  .card a {
+  border-color: #883810;
+  background-color: #F48248;
+  }
+  
+  .card a:hover{
+  background-color: #bd5622;
+  }
+  
+  .text{
+  font-family:Helvetica;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #449653;
+  
+  align-items: center;
+  }
+  
+  .text h2{
+   font-weight: bold;
+    align-items: center;
+    }
+  .nav-item a{
+  color: black;
+  background-color: #F3F3F3;
+  border-color: #636363;
+  }
+  
+  .nav-item a:hover{
+  background-color: #6f6d6c;
+  }
+  
+  .card-body h3{
+  color: #F48248;
+  font-weight: bold;
+  }
+  
+  .card h5{
+  color:#F48248;
+  font-weight: bold;
+  }
+  
+  .recherche{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .card h2 {
+  color: #F48248;
+  font-family:Helvetica;
+  }
+  
+  .text h2{
+  color: white;
+  }
+  
+  .annecdote{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .recherche button{
+      border-color: #883810;
+      background-color: #F48248;
+  }
+  
+  .recherche svg{
+  color: white;
+  }
+  
+  .recherche button:hover{
+      background-color: #883810;
+      background-color: #bd5622;
+  }
+  
+  footer{
+  background-color: white;
+  }
+  
+  footer p{
+  text-align: left;
+  }
+  
+  .container {
+      display: grid; 
+      grid-template-columns: 1.5fr 0.4fr 1.5fr 0.4fr 1.5fr; 
+      grid-template-rows: 1fr 0.5fr 1fr; 
+      gap: 0px 0px; 
+      grid-template-areas: 
+        "Image-1 . Image-2 . Image-3"
+        ". . . . ."
+        "Image-4 . Image-5 . Image-6"; 
+    }
+    
+    .Image-1 { grid-area: Image-1; 
+      height: 1rem;
+      width: 1rem;
+  }
+    
+    .Image-2 { grid-area: Image-2;
+      height: 1rem;
+      width: 1rem;
+  }
+    
+    .Image-3 { grid-area: Image-3; 
+      height: 1rem;
+      width: 1rem;
+  }
+    
+    .Image-4 { grid-area: Image-4; 
+      height: 1rem;
+      width: 1rem;}
+    
+    .Image-5 { grid-area: Image-5; 
+      height: 1rem;
+      width: 1rem;}
+    
+    .Image-6 { grid-area: Image-6; 
+      height: 1rem;
+      width: 1rem;}
+  
+  .card-img-top{
+  width: 20%;
+      }
+  
+  .menuchoix{
+    display: flex;
+  text-align: center;
+  border-color: #1a3e20;
+  background-color:#449653 ;
+  align-items: center;
+  }
+  
+  .card-custom:hover{
+  border-radius: 10%;
+  border-color: #883810;
+  background-color: #FF8D40;
+  }
+  
+  
+  #galerie{
+  display: grid;
+  grid-template-columns: auto auto auto ;         
+  grid-template-rows: auto auto;
+  }
+  
+  #galerie div {
+    position: relative;
+    border: 3px solid #666;
+    margin: 10px;
+    padding:5px;
+    background-color: #efefef;
+    height:225px;
+  }
+  
+  #galerie div p {
+    position: absolute ;
+    top: 120px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width:280px;
+    font-size: 20px;
+    font-weight: bold;
+    padding:10px;
+  }
+  
+  #galerie div:hover {
+    border-color: #6f3a09;
+    background-color: #fe8a3c;
+  }
+  
+  #galerie div:hover p {
+    display: none;
+  }
+  
+  #galerie div img {
+  height: 200px;
+  border-radius: 6%;
+  }
+  
+  #galerie a{
+  text-decoration: none;
+  color: black;
+  }
+  
+  .card-custom a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer{
+    font-family: Helvetica;
+  background-color: #449653;
+  font-weight: bold;
+  font-size: 1.5rem;
+  }
+  
+  footer .liens{
+  text-decoration: none;
+  color: #F3F3F3;
+  font-size: larger;
+  }
+  
+  footer .liens:hover{
+  color: #636161;
+  }
+  
+  footer div{
+  text-align: center;
+  }
+  
+  .footerimg{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  height: 15%;
+  width: 15%;
+  }
+  
+  #commande{
+    border-color: #883810;
+    background-color: #F48248;
+  }
+  
+  #commande:hover{
+    background-color: #bd5622;
+  }
+  
+  .Social-media{
+    display: flex;
+    justify-content: end ;
+  }
+  
+  .RS{
+    display: flex;
+    height: 45px;
+    width: 45px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: end;
+    justify-content: end;
+    text-decoration: none;
+  
+    transition: transform 0.5s
+  }
+  
+  .RS i{
+    font-size: 50px;
+    color:#e6e1e1;
+    transition: transform 0.5s;
+  }
+  
+  .RS:hover{ 
+    transform: translateY(2px);
+  }
+  .RS:hover i{
+    transform: scale(0.90);
+  }
+  .RS:hover .fa-facebook{
+    color: #3b5998;
+  }
+  .RS:hover .fa-twitter{
+    color: #00acee;
+  }
+  .RS:hover .fa-lin{
+    color: #4fce5d;
+  }
+  .RS:hover .fa-instagram{
+    color: #f14843;
+  }
+  
