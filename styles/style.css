@@ -1,5 +1,3 @@
-
-
 body{
   font-family: Helvetica;
   font-size: 1.5rem;
@@ -7,8 +5,6 @@ body{
 
 #corps{
 background-color: #449653;
-
-
 }
 
 h1{
@@ -49,6 +45,7 @@ background-color: #449653;
 
 align-items: center;
 }
+
 .text h2{
  font-weight: bold;
   align-items: center;
@@ -71,7 +68,6 @@ font-weight: bold;
 .card h5{
 color:#F48248;
 font-weight: bold;
-
 }
 
 .recherche{
@@ -88,6 +84,7 @@ font-family:Helvetica;
 .text h2{
 color: white;
 }
+
 .annecdote{
     display: flex;
     align-items: center;
@@ -98,22 +95,24 @@ color: white;
     border-color: #883810;
     background-color: #F48248;
 }
+
 .recherche svg{
 color: white;
-
 }
+
 .recherche button:hover{
     background-color: #883810;
     background-color: #bd5622;
 }
+
 footer{
 background-color: white;
-
 }
+
 footer p{
 text-align: left;
-
 }
+
 .container {
     display: grid; 
     grid-template-columns: 1.5fr 0.4fr 1.5fr 0.4fr 1.5fr; 
@@ -128,7 +127,6 @@ text-align: left;
   .Image-1 { grid-area: Image-1; 
     height: 1rem;
     width: 1rem;
- 
 }
   
   .Image-2 { grid-area: Image-2;
@@ -153,11 +151,8 @@ text-align: left;
     height: 1rem;
     width: 1rem;}
 
-    .card-img-top{
+.card-img-top{
 width: 20%;
-
-
-
     }
 
 .menuchoix{
@@ -166,15 +161,12 @@ text-align: center;
 border-color: #1a3e20;
 background-color:#449653 ;
 align-items: center;
-
-
 }
 
 .card-custom:hover{
 border-radius: 10%;
 border-color: #883810;
 background-color: #FF8D40;
-
 }
 
 
@@ -182,11 +174,9 @@ background-color: #FF8D40;
 display: grid;
 grid-template-columns: auto auto auto ;         
 grid-template-rows: auto auto;
-
 }
 
 #galerie div {
-
   position: relative;
   border: 3px solid #666;
   margin: 10px;
@@ -194,6 +184,7 @@ grid-template-rows: auto auto;
   background-color: #efefef;
   height:225px;
 }
+
 #galerie div p {
   position: absolute ;
   top: 120px;
@@ -202,13 +193,13 @@ grid-template-rows: auto auto;
   font-size: 20px;
   font-weight: bold;
   padding:10px;
- 
 }
 
 #galerie div:hover {
   border-color: #6f3a09;
   background-color: #fe8a3c;
 }
+
 #galerie div:hover p {
   display: none;
 }
@@ -216,21 +207,18 @@ grid-template-rows: auto auto;
 #galerie div img {
 height: 200px;
 border-radius: 6%;
-
 }
+
 #galerie a{
 text-decoration: none;
 color: black;
-
 }
-
 
 .card-custom a{
   text-decoration: none;
   color: white;
-
-
 }
+
 footer{
   font-family: Helvetica;
 background-color: #449653;
@@ -242,17 +230,16 @@ footer .liens{
 text-decoration: none;
 color: #F3F3F3;
 font-size: larger;
-
 }
 
 footer .liens:hover{
 color: #636161;
-
 }
+
 footer div{
 text-align: center;
-
 }
+
 .footerimg{
   float: none;
   margin-left: auto;
@@ -262,27 +249,20 @@ height: 15%;
 width: 15%;
 }
 
-
-
 #commande{
   border-color: #883810;
   background-color: #F48248;
- 
-
 }
 
 #commande:hover{
   background-color: #bd5622;
-
 }
-
-
-
 
 .Social-media{
   display: flex;
   justify-content: end ;
 }
+
 .RS{
   display: flex;
   height: 45px;
@@ -295,13 +275,14 @@ width: 15%;
 
   transition: transform 0.5s
 }
+
 .RS i{
   font-size: 50px;
   color:#e6e1e1;
   transition: transform 0.5s;
 }
-.RS:hover{
-  
+
+.RS:hover{ 
   transform: translateY(2px);
 }
 .RS:hover i{
