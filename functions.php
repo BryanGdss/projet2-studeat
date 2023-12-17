@@ -4,6 +4,27 @@ add_theme_support( 'post-thumbnails' );
 add_theme_support( 'title-tag' );
 add_theme_support('menus');
 register_nav_menu('header', 'En tête du menu');
+register_nav_menu('footer', 'En pied de page');
+
+
+
+function create_posttypes() {
+    register_post_type('restaurants', [
+        'labels' => [
+            'name' => __( 'Restaurants' ),
+            'singular_name' => __( 'Restaurants' )
+        ],
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => ['slug' => 'restaurants'],
+        'show_in_rest' => true,
+    ]);
+}
+
+
+
+
+
 
 function wpbootstrap_styles_scripts(){
     wp_enqueue_style('style', get_stylesheet_uri());
@@ -23,6 +44,7 @@ function montheme_menu_link_class($attrs) {
     return $attrs;
     
     }
+    add_action('init', 'create_posttypes');
   add_action('wp_enqueue_scripts', 'wpbootstrap_styles_scripts');
   add_filter('nav_menu_css_class','montheme_menu_class');
   add_filter('nav_menu_link_attributes','montheme_menu_link_class');

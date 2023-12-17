@@ -1,18 +1,20 @@
 <?php wp_footer(); ?>
-<p><a class="liens" href="mentionlegale.html">Mentions légales</a></p>
-  <p><a class="liens" href="contact.html">Nous contacter</a></p>
-  <p><a class="liens" href="livraison.html">Recrutement</a></p>
- 
-  <div class="Social-media">
-    <a class="RS" href="#"><i class="fab fa-facebook"></i></a>
-    <a class="RS" href="#"><i class="fab fa-twitter"></i></a>
-    <a class="RS" href="#"><i class="fab fa-instagram"></i></a>
-    
-  </div>
 
-
+ <footer>
+ <?php wp_nav_menu( [
+ 'theme_location' => 'footer',
+ 'container' => false,
+ 'menu_class' => 'liens'
+ ])
+ ?>
+  <ul class="Social-media">
+    <li class="RS" href="#"><i class="fab fa-facebook"></i></li>
+    <li class="RS" href="#"><i class="fab fa-twitter"></i></li>
+    <li class="RS" href="#"><i class="fab fa-instagram"></i></li>
+   
+</ul>  
+  <div>Copyright - 2023 <?php bloginfo('name') ?> Brussels. All rights reserved.</div>
   
-  <div>Copyright - 2023 Stud’ Eat Brussels. All rights reserved.</div>
-  <img  class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" >
+  </footer>
 </body>
 </html>
