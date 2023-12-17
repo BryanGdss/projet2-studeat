@@ -7,7 +7,7 @@
             <div class="row row-cols-5 g-3"></div>
              <div class="col">
                 <div class="card-custom">
-                 <a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/restaurant.png" class="d-block w-100" class="card-img-top" alt="L'image ne s'affiche pas" />
+                 <a href="restaurant"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/restaurant.png" class="d-block w-100" class="card-img-top" alt="L'image ne s'affiche pas" />
                   <div class="card-body">
                     <h5 class="card-title">Restaurants</h5>
                   </a>
@@ -16,7 +16,7 @@
               </div>
               <div class="col">
                 <div class="card-custom">
-                  <a href="végétarien.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vegetarien.png" class="d-block w-100" class="card-img-top" alt="L'image ne s'affiche pas" />
+                  <a href="vegetarien"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vegetarien.png" class="d-block w-100" class="card-img-top" alt="L'image ne s'affiche pas" />
                   <div class="card-body">
                     <h5 class="card-title">Végétariens</h5>
                   </a>
@@ -25,7 +25,7 @@
               </div>
               <div class="col">
                 <div class="card-custom">
-                  <a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/halal.png" class="d-block w-100" class="card-img-top" alt="L'image ne s'affiche pas" /> 
+                  <a href="halal"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/halal.png" class="d-block w-100" class="card-img-top" alt="L'image ne s'affiche pas" /> 
                   <div class="card-body">
                     <h5 class="card-title">Halal</h5>
                   </a>
@@ -34,7 +34,7 @@
               </div>
               <div class="col">
                 <div class="card-custom ">
-                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/fastfood.png" class="d-block w-100" class="card-img-top" alt="L'image ne s'affiche pas" />
+                <a href="fastfood"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/fastfood.png" class="d-block w-100" class="card-img-top" alt="L'image ne s'affiche pas" />
                   <div class="card-body">
                     <h5 class="card-title">Fast-foods</h5>
                   </a>
@@ -44,7 +44,7 @@
               
               <div class="col">
                 <div class="card-custom" >
-                 <a href=""> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/courses.png" class="d-block w-100" class="card-img-top " alt="L'image ne s'affiche pas" />
+                 <a href="courses"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/courses.png" class="d-block w-100" class="card-img-top " alt="L'image ne s'affiche pas" />
                   <div class="card-body">
                     <h5 class="card-title">Courses</h5>
                   </a>
@@ -65,8 +65,8 @@
       <p>Burger kitchen</p>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 2.png"/>
   </div></a>
- <a href="resto1.html"> <div>
-      <p href="resto1">Taormina</p>
+ <a href="taormina"> <div>
+      <p href="taormina">Taormina</p>
       <img href="<?php echo get_template_directory_uri(); ?>/assets/img/Image 3.png"/>
   </div></a>
   <a href=""><div>

@@ -28,7 +28,7 @@
           <div class="card-body">
             <h5 class="card-title">Commander</h5>
             <p class="card-text">Commandez un repas sain et pas cher, dans un restaurant à proximité de votre domicile.</p>
-            <a href="commande.php ?>" class="btn btn-primary">Voir les offres ...</a> 
+            <a href="<?php echo 'commande'; ?>" class="btn btn-primary">Voir les offres ...</a> 
           </div>
         </div>
     </div>
