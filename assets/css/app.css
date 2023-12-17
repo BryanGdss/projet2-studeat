@@ -6,7 +6,7 @@ body{
   .logo{
 
     width:30%;
-    height:30;
+    height:30%;
   }
   
   #corps{
@@ -157,9 +157,6 @@ body{
       height: 1rem;
       width: 1rem;}
   
-  .card-img-top{
-  width: 20%;
-      }
   
   .menuchoix{
     display: flex;
@@ -226,7 +223,7 @@ body{
   }
   
   footer{
-    font-family: Helvetica;
+  font-family: Helvetica;
   background-color: #449653;
   font-weight: bold;
   font-size: 1.5rem;
@@ -307,3 +304,5 @@ body{
     color: #f14843;
   }
   
+
+ 

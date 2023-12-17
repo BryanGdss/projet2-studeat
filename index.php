@@ -16,15 +16,19 @@
         </svg> </button>
       </form>
     </div>
+
+
  <br>
+
  <div class="row row-cols-1 row-cols-md-3 g-4 nav justify-content-center" id="corps">
-    <div class="col">
+   
+ <div class="col">
         <div class="card">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/commander.png" class="card-img-top" alt="L'image ne s'affiche pas." > 
           <div class="card-body">
             <h5 class="card-title">Commander</h5>
             <p class="card-text">Commandez un repas sain et pas cher, dans un restaurant à proximité de votre domicile.</p>
-            <a href="commande.html" class="btn btn-primary">Voir les offres ...</a> 
+            <a href="commande.php ?>" class="btn btn-primary">Voir les offres ...</a> 
           </div>
         </div>
     </div>
@@ -51,6 +55,7 @@
         </div>
     </div>
   </div>
+  
 </div>
 <h2>Le saviez vous ?</h2>
 <div class="annecdote">
@@ -71,7 +76,7 @@
     <div class="col">
       <div class="card">
         <div class="card-body">
-          <h3 class="card-title">Les <span><img src="images/test.png" alt="L'image ne s'affiche pas" width="7%" height="7%"></span>étudiants</h3>
+          <h3 class="card-title">Les <span><img class="cardimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/test.png" alt="L'image ne s'affiche pas" width="7%" height="7%"></span>étudiants</h3>
           <p class="card-text">  Notre service de livraison de repas Stud’Eat, permet
             aux étudiants et plus largement aux personnes n’en ayant pas 
             les moyens de se procurer des repas sains et bon marché.
@@ -90,7 +95,7 @@
     <div class="col">
       <div class="card" >
         <div class="card-body">
-          <h3 class="card-title">Les <span><img src="images/test2.png" alt="L'image ne s'affiche pas" width="15%" height="15%"></span> restaurants</h3>
+          <h3 class="card-title">Les <span><img class="cardimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/test2.png" alt="L'image ne s'affiche pas" width="15%" height="15%"></span> restaurants</h3>
           <p class="card-text">Notre plateforme de revente d’invendus Stud’Eat, permet
             aux restaurants, mais égalements à tout autre établissement
             qui propose des produits alimentaires, de revendre 
