@@ -9,15 +9,16 @@ register_nav_menu('footer', 'En pied de page');
 
 
 function create_posttypes() {
-    register_post_type('restaurants', [
+    register_post_type('vegetarien', [
         'labels' => [
-            'name' => __( 'Restaurants' ),
-            'singular_name' => __( 'Restaurants' )
+            'name' => __( 'Végétariens' ),
+            'singular_name' => __( 'Vegetarien' )
         ],
         'public' => true,
         'has_archive' => true,
-        'rewrite' => ['slug' => 'restaurants'],
+        'rewrite' => ['slug' => 'vegetarien'],
         'show_in_rest' => true,
+        'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
     ]);
 }
 
