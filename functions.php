@@ -16,7 +16,7 @@ function create_posttypes() {
         ],
         'public' => true,
         'has_archive' => true,
-        'rewrite' => ['slug' => 'vegetarien'],
+        'rewrite' => ['slug' => 'commande/vegetarien/'],
         'show_in_rest' => true,
         'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
     ]);
@@ -32,6 +32,7 @@ function wpbootstrap_styles_scripts(){
       wp_enqueue_style('bootstrap', '	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css');
       wp_enqueue_script('bootstrap-bundle', '	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js', false, 1, true);
   }
+  add_action('wp_enqueue_scripts', 'wpbootstrap_styles_scripts');
   
 
 function montheme_menu_class($classes) {

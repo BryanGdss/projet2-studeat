@@ -1,5 +1,5 @@
 <?php/** 
-* Template Name: Template restaurant
+* Template Name: Template restaurants
 */
 ?>
 <?php get_header(); ?>
@@ -14,7 +14,7 @@ $restaurantsList = new WP_Query($restaurantsList);
 ?>
 
 <?php if ($restaurantsList->have_posts()): ?>
-    <h3>Nos restaurants </h3>
+    <h3>Nos restaurants</h3>
     <ul>
         <?php while ($restaurantsList->have_posts()): $restaurantsList->the_post(); ?>
             <li>

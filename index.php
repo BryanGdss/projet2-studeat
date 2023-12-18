@@ -39,7 +39,7 @@
           <div class="card-body">
             <h5 class="card-title">Devenir livreur</h5>
             <p class="card-text">Devenir livreur bénévole et rejoignez la Stud' Eat Family remplie de jeunes motivés à faire bouger les choses !</p>
-            <a href="livraison.html" class="btn btn-primary">En savoir plus ...</a>
+            <a href="<?php echo 'livreur'; ?>" class="btn btn-primary">En savoir plus ...</a>
           </div>
         </div>
     </div>
@@ -50,7 +50,7 @@
           <div class="card-body">
             <h5 class="card-title">Devenir partenaire</h5>
             <p class="card-text">Devenez un restaurant partenaire avec Stud' Eat afin de liquider vos invendus et éviter le gaspillage.</p>
-            <a href="partenaire.html" class="btn btn-primary">En savoir plus ...</a>
+            <a href="<?php echo 'partenaire'; ?>" class="btn btn-primary">En savoir plus ...</a>
           </div>
         </div>
     </div>

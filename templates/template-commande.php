@@ -16,7 +16,7 @@
               </div>
               <div class="col">
                 <div class="card-custom">
-                  <a href="vegetarien"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vegetarien.png" class="d-block w-100" class="card-img-top" alt="L'image ne s'affiche pas" />
+                  <a href="<?php echo "vegetarien" ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vegetarien.png" class="d-block w-100" class="card-img-top" alt="L'image ne s'affiche pas" />
                   <div class="card-body">
                     <h5 class="card-title">Végétariens</h5>
                   </a>

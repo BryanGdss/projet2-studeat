@@ -23,7 +23,7 @@ while ($VegetariensList->have_posts()): $VegetariensList->the_post(); ?>
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed unique-button-<?php echo $count; ?>" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse<?php echo $count; ?>" aria-expanded="false" aria-controls="flush-collapse<?php echo $count; ?>">
-    <?php the_title(); ?>
+<?php the_title(); ?>
 </button>
 
             </h2>
@@ -34,7 +34,7 @@ while ($VegetariensList->have_posts()): $VegetariensList->the_post(); ?>
     </div>
 
 <?php
-$count++; // Incrémentation du compteur
+$count++; 
 endwhile;
 ?>
 
