@@ -54,34 +54,35 @@
             </div>
           </div> <br>
           
-<h2>Restaurants à proximité</h2>
+
 <br>
-<div id="galerie">
-  <a href=""><div>
-      <p>Kabukicho</p>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 1.png"/>
-  </div></a>
-  <a href=""><div>
-      <p>Burger kitchen</p>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 2.png"/>
-  </div></a>
- <a href="taormina"> <div>
-      <p href="taormina">Taormina</p>
-      <img href="<?php echo get_template_directory_uri(); ?>/assets/img/Image 3.png"/>
-  </div></a>
-  <a href=""><div>
-      <p>El paso cochina</p>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 4.png"/>
-  </div></a>
-  <a href=""><div>
-      <p>Sao thaï</p>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 5.png"/>
-  </div></a>
-  <a href=""><div>
-      <p>Beijingya</p>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 6.png"/>
-  </div></a>
+<div class="galerie" class="container mt-4">
+<h2>Restaurants à proximité</h2>
+
+    <div class="row">
+        <div class="col-md-4 mb-4 first-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 1.png" alt="Photo 1" class="img-fluid">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 2.png" alt="Photo 2" class="img-fluid">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 3.png" alt="Photo 3" class="img-fluid">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 4.png" class="img-fluid">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 5.png" alt="Photo 5" class="img-fluid">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 6.png" alt="Photo 6" class="img-fluid">
+        </div>
+    </div>
 </div>
 
 
-<?php get_footer() ?>
+<?php get_footer() ?> 

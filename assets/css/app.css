@@ -173,50 +173,6 @@ body{
   }
   
   
-  #galerie{
-  display: grid;
-  grid-template-columns: auto auto auto ;         
-  grid-template-rows: auto auto;
-  }
-  
-  #galerie div {
-    position: relative;
-    border: 3px solid #666;
-    margin: 10px;
-    padding:5px;
-    background-color: #efefef;
-    height:225px;
-  }
-  
-  #galerie div p {
-    position: absolute ;
-    top: 120px;
-    background-color: rgba(255, 255, 255, 0.6);
-    width:280px;
-    font-size: 20px;
-    font-weight: bold;
-    padding:10px;
-  }
-  
-  #galerie div:hover {
-    border-color: #6f3a09;
-    background-color: #fe8a3c;
-  }
-  
-  #galerie div:hover p {
-    display: none;
-  }
-  
-  #galerie div img {
-  height: 200px;
-  border-radius: 6%;
-  }
-  
-  #galerie a{
-  text-decoration: none;
-  color: black;
-  }
-  
   .card-custom a{
     text-decoration: none;
     color: white;
