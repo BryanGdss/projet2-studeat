@@ -3,7 +3,7 @@
 */
 ?>
 <?php get_header(); ?>
-<section class="text-center">
+<!--<section class="text-center">
 
   <div class="p-5 bg-image" style="
         background-image: url('https://ichef.bbci.co.uk/news/800/cpsprodpb/1709F/production/_109476349_foodwaste1pile_of_fruit.jpg');
@@ -64,7 +64,61 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
+
+
+
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Créer un compte</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>ou utiliser l'adresse mail pour s'enregistrer</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>S'enregistrer</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Se connecter</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>ou se connecter par mail</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Mot de passe oublier ?</a>
+                <button>Se connecter</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bon retour parmi nous</h1>
+                    <p>Entrez vos détails personnels</p>
+                    <button class="hidden" id="login">Se connecter</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello !</h1>
+                    <p>Entrez vos identifiants personnels</p>
+                    <button class="hidden" id="register">S'enregistrer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
 
 
 

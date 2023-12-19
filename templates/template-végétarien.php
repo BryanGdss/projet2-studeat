@@ -15,7 +15,7 @@ $VegetariensList = new WP_Query($args_vegetariens);
 ?>
 
 <?php
-$count = 1; // Initialisation du compteur
+$count = 1; 
 
 while ($VegetariensList->have_posts()): $VegetariensList->the_post(); ?>
 
