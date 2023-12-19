@@ -30,6 +30,7 @@ while ($VegetariensList->have_posts()): $VegetariensList->the_post(); ?>
             <div id="flush-collapse<?php echo $count; ?>" class="accordion-collapse collapse unique-collapse-<?php echo $count; ?>" data-bs-parent="#accordionFlushExample<?php echo $count; ?>">
                 <div class="accordion-body"><?php the_content(); ?>
             </div>
+
         </div>
     </div>
 

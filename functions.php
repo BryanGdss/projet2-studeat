@@ -15,8 +15,8 @@ function create_posttypes() {
             'singular_name' => __( 'Vegetarien' )
         ],
         'public' => true,
-        'has_archive' => true,
-        'rewrite' => ['slug' => 'commande/vegetarien/'],
+        'has_archive' => false,
+        // 'rewrite' => ['slug' => 'vegetarien'],
         'show_in_rest' => true,
         'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
     ]);
@@ -27,7 +27,7 @@ function create_posttypes() {
         ],
         'public' => true,
         'has_archive' => true,
-        'rewrite' => ['slug' => 'commande/restaurant/'],
+        // 'rewrite' => ['slug' => 'commande/restaurant/'],
         'show_in_rest' => true,
         'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
     ]);
@@ -38,7 +38,7 @@ function create_posttypes() {
         ],
         'public' => true,
         'has_archive' => true,
-        'rewrite' => ['slug' => 'commande/halal/'],
+        // 'rewrite' => ['slug' => 'commande/halal/'],
         'show_in_rest' => true,
         'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
     ]);
@@ -49,7 +49,7 @@ function create_posttypes() {
         ],
         'public' => true,
         'has_archive' => true,
-        'rewrite' => ['slug' => 'commande/fastfoods/'],
+        // 'rewrite' => ['slug' => 'commande/fastfoods/'],
         'show_in_rest' => true,
         'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
     ]);
@@ -60,7 +60,7 @@ function create_posttypes() {
         ],
         'public' => true,
         'has_archive' => true,
-        'rewrite' => ['slug' => 'commande/courses/'],
+        // 'rewrite' => ['slug' => 'commande/courses/'],
         'show_in_rest' => true,
         'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
     ]);
@@ -74,8 +74,8 @@ function create_posttypes() {
 
 function wpbootstrap_styles_scripts(){
     wp_enqueue_style('style', get_stylesheet_uri());
-      wp_enqueue_style('bootstrap', '	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css');
-      wp_enqueue_script('bootstrap-bundle', '	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js', false, 1, true);
+      wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css');
+      wp_enqueue_script('bootstrap-bundle', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js', false, 1, true);
   }
   add_action('wp_enqueue_scripts', 'wpbootstrap_styles_scripts');
   

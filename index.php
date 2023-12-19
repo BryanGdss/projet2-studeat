@@ -2,6 +2,10 @@
 <?php get_header(); ?>
 
 
+
+
+
+
 <h1>Des repas sains et pas cher</h1>
 <h1>Livrés chez vous !</h1>
 <br>
@@ -11,7 +15,7 @@
         <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
       </svg> 
       <input class="form-control me-2" type="search" placeholder="Adresse (Ville, code postal, rue, etc.) " aria-label="Search">
-        <a href="<?php echo 'commande'; ?>" class="btn btn-outline-success" type="submit"> <i class="fa-solid fa-magnifying-glass fa-beat" style="color: #449653;"></i></a>
+        <a href="<?php echo 'commande'; ?>" class="btn btn-outline-success" type="submit"> <i class="fa-solid fa-magnifying-glass fa-beat" style="color: #000;"></i></a>
       </form>
     </div>
 
