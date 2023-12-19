@@ -38,7 +38,7 @@ body{
   border-color: #883810;
   background-color: #F48248;
   }
-  
+ 
   .card a:hover{
   background-color: #bd5622;
   }
@@ -76,11 +76,20 @@ body{
   font-weight: bold;
   }
   
-  .recherche{
+  .recherche a{
   display: flex;
   align-items: center;
   justify-content: center;
+  }  
+  .recherche a{
+      border-color: #883810;
+      background-color: #F48248;
   }
+  .recherche {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
   
   .card h2 {
   color: #F48248;
@@ -96,17 +105,12 @@ body{
       align-items: center;
       justify-content: center;
   }
-  
-  .recherche button{
-      border-color: #883810;
-      background-color: #F48248;
-  }
-  
+    
   .recherche svg{
   color: white;
   }
   
-  .recherche button:hover{
+  .recherche a:hover{
       background-color: #883810;
       background-color: #bd5622;
   }
@@ -256,9 +260,6 @@ body{
   }
   .RS:hover .fa-twitter{
     color: #00acee;
-  }
-  .RS:hover .fa-lin{
-    color: #4fce5d;
   }
   .RS:hover .fa-instagram{
     color: #f14843;

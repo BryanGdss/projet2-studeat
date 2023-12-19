@@ -74,9 +74,9 @@
             <form>
                 <h1>Créer un compte</h1>
                 <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook fa-bounce" style="color: #000000;"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-x-twitter fa-bounce" style="color: #000000;"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram fa-bounce" style="color: #000000;"></i></a>
                 </div>
                 <span>ou utiliser l'adresse mail pour s'enregistrer</span>
                 <input type="text" placeholder="Nom, prénom">
@@ -90,9 +90,9 @@
                 <h1>Se connecter</h1>
                 <div class="social-icons">
                    
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook fa-bounce" style="color: #000000;"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-x-twitter fa-bounce" style="color: #000000;"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram fa-bounce" style="color: #000000;"></i></a>
              
                 </div>
                 <span>ou se connecter par mail</span>

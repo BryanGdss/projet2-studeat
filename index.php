@@ -11,9 +11,7 @@
         <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
       </svg> 
       <input class="form-control me-2" type="search" placeholder="Adresse (Ville, code postal, rue, etc.) " aria-label="Search">
-        <button class="btn btn-outline-success" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-        </svg> </button>
+        <a href="<?php echo 'commande'; ?>" class="btn btn-outline-success" type="submit"> <i class="fa-solid fa-magnifying-glass fa-beat" style="color: #449653;"></i></a>
       </form>
     </div>
 
@@ -27,7 +25,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/commander.png" class="card-img-top" alt="L'image ne s'affiche pas." > 
           <div class="card-body">
             <h5 class="card-title">Commander</h5>
-            <p class="card-text">Commandez un repas sain et pas cher, dans un restaurant à proximité de votre domicile. </p> 
+            <p class="card-text">Commandez un repas sain et pas cher, dans un restaurant à proximité de votre domicile dès maintenant.</p> 
             
             <a href="<?php echo 'commande'; ?>" class="btn btn-primary">Voir les offres ...</a> 
           </div>
@@ -97,6 +95,7 @@
       <div class="card" >
         <div class="card-body">
           <h3 class="card-title">Les <span><img class="cardimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/test2.png" alt="L'image ne s'affiche pas" width="15%" height="15%"></span> restaurants</h3>
+          <br><br>
           <p class="card-text">Notre plateforme de revente d’invendus Stud’Eat, permet
             aux restaurants, mais égalements à tout autre établissement
             qui propose des produits alimentaires, de revendre 
@@ -108,7 +107,9 @@
             Bruxelles. Ce qui représente énormément de gachis.
             
             C’est pour cette raison que nous avons décidé de créer
-            le service de revente d’invendus Stud’Eat. </p>
+            le service de revente d’invendus Stud’Eat. 
+      
+          </p>
         </div>
       </div>
     </div>
