@@ -74,15 +74,14 @@
             <form>
                 <h1>Créer un compte</h1>
                 <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
                 </div>
                 <span>ou utiliser l'adresse mail pour s'enregistrer</span>
-                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Nom, prénom">
                 <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Mot de passe">
                 <button>S'enregistrer</button>
             </form>
         </div>
@@ -90,14 +89,15 @@
             <form>
                 <h1>Se connecter</h1>
                 <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                   
                     <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+             
                 </div>
                 <span>ou se connecter par mail</span>
                 <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Mot de passe">
                 <a href="#">Mot de passe oublier ?</a>
                 <button>Se connecter</button>
             </form>

@@ -20,7 +20,52 @@ function create_posttypes() {
         'show_in_rest' => true,
         'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
     ]);
+    register_post_type('restaurants', [
+        'labels' => [
+            'name' => __( 'Restaurants' ),
+            'singular_name' => __( 'Restaurant' )
+        ],
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => ['slug' => 'commande/restaurant/'],
+        'show_in_rest' => true,
+        'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+    ]);
+    register_post_type('halal', [
+        'labels' => [
+            'name' => __( 'Halal' ),
+            'singular_name' => __( 'Halal' )
+        ],
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => ['slug' => 'commande/halal/'],
+        'show_in_rest' => true,
+        'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+    ]);
+    register_post_type('Fastfoods', [
+        'labels' => [
+            'name' => __( 'Fastfoods' ),
+            'singular_name' => __( 'Fastfoods' )
+        ],
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => ['slug' => 'commande/fastfoods/'],
+        'show_in_rest' => true,
+        'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+    ]);
+    register_post_type('Courses', [
+        'labels' => [
+            'name' => __( 'Courses' ),
+            'singular_name' => __( 'Courses' )
+        ],
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => ['slug' => 'commande/courses/'],
+        'show_in_rest' => true,
+        'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+    ]);
 }
+
 
 
 
@@ -46,7 +91,7 @@ function montheme_menu_link_class($attrs) {
     return $attrs;
     
     }
-    add_action('init', 'create_posttypes');
+  add_action('init', 'create_posttypes');
   add_action('wp_enqueue_scripts', 'wpbootstrap_styles_scripts');
   add_filter('nav_menu_css_class','montheme_menu_class');
   add_filter('nav_menu_link_attributes','montheme_menu_link_class');

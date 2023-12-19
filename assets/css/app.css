@@ -5,8 +5,8 @@ body{
 
   .logo{
 
-    width:30%;
-    height:30%;
+    width:20%;
+    height:20%;
   }
   
   #corps{
@@ -164,6 +164,7 @@ body{
   border-color: #1a3e20;
   background-color:#449653 ;
   align-items: center;
+  
   }
   
   .card-custom:hover{

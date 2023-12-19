@@ -27,7 +27,8 @@
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/commander.png" class="card-img-top" alt="L'image ne s'affiche pas." > 
           <div class="card-body">
             <h5 class="card-title">Commander</h5>
-            <p class="card-text">Commandez un repas sain et pas cher, dans un restaurant à proximité de votre domicile.</p>
+            <p class="card-text">Commandez un repas sain et pas cher, dans un restaurant à proximité de votre domicile. </p> 
+            
             <a href="<?php echo 'commande'; ?>" class="btn btn-primary">Voir les offres ...</a> 
           </div>
         </div>
