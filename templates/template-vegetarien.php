@@ -1,22 +1,22 @@
 <?php/** 
-* Template Name: Template halal
+* Template Name: Template vegetarien
 */
 ?>
 <?php get_header(); ?>
 
-<h1>Halal</h1>
+<h1>Végétarien</h1>
 
 <div class="row">
     <?php
-    $args_halal = array(
-        'post_type' => 'halal',  
+    $args_vegetariens = array(
+        'post_type' => 'vegetarien',  
         'posts_per_page' => -1,
     );
 
-    $halalList = new WP_Query($args_halal);
+    $VegetariensList = new WP_Query($args_vegetariens);
     ?>
 
-    <?php while ($halalList->have_posts()): $halalList->the_post(); ?>
+    <?php while ($VegetariensList->have_posts()): $VegetariensList->the_post(); ?>
         <div class="col-sm-4">
             <div class="card" style="width: 100%;">
                 <?php
@@ -33,8 +33,6 @@
 
     <?php wp_reset_postdata();?>
 </div>
-
-
 
 
 

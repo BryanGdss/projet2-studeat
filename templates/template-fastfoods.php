@@ -1,45 +1,39 @@
-<?php/** 
-* Template Name: Template fast-foods
-*/
+<? php
+/** 
+ * Template Name: Template fast-foods
+ */
 ?>
 <?php get_header(); ?>
 
-<?php
+<h1>Fast-foods</h1>
 
-$args_vegetariens = array(
-    'post_type' => 'fastfoods',  
-    'posts_per_page' => -1,
-);
+<div class="row">
+    <?php
+    $args_fastfoods = array(
+        'post_type' => 'fastfoods',  
+        'posts_per_page' => -1,
+    );
 
+    $fastfoodsList = new WP_Query($args_fastfoods);
+    ?>
 
-$VegetariensList = new WP_Query($args_vegetariens);
-?>
-
-<?php
-$count = 1; 
-
-while ($VegetariensList->have_posts()): $VegetariensList->the_post(); ?>
-
-    <div class="accordion accordion-flush" id="accordionFlushExample<?php echo $count; ?>">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-            <button class="accordion-button collapsed unique-button-<?php echo $count; ?>" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse<?php echo $count; ?>" aria-expanded="false" aria-controls="flush-collapse<?php echo $count; ?>">
-<?php the_title(); ?>
-</button>
-
-            </h2>
-            <div id="flush-collapse<?php echo $count; ?>" class="accordion-collapse collapse unique-collapse-<?php echo $count; ?>" data-bs-parent="#accordionFlushExample<?php echo $count; ?>">
-                <div class="accordion-body"><?php the_content(); ?>
+    <?php while ($fastfoodsList->have_posts()): $fastfoodsList->the_post(); ?>
+        <div class="col-sm-4">
+            <div class="card" style="width: 100%;">
+                <?php
+                if (has_post_thumbnail()) {
+                    echo wp_get_attachment_image(get_post_thumbnail_id(), 'custom-thumbnail', false, ['class' => 'card-img-top', 'alt' => get_the_title(), 'style' => 'width: 100%; height: auto;']);
+                }
+                ?>
+                <div class="card-body">
+                    <p class="card-text"><?php the_content(); ?></p>
+                </div>
             </div>
-
-           
         </div>
-    </div>
+    <?php endwhile; ?>
 
-<?php
-$count++; 
-endwhile;
-?>
+    <?php wp_reset_postdata();?>
+</div>
 
 
 
@@ -48,4 +42,6 @@ endwhile;
 
 
 
-<?php get_footer() ?>
+
+
+    <?php get_footer() ?>
