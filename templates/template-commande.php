@@ -56,33 +56,90 @@
           
 
 <br>
-<div class="galerie" class="container mt-4">
+
+<style>
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+  }
+
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+
+  .gallery-item p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    color: black;
+  }
+
+</style>
 <h2>Restaurants à proximité</h2>
+    <div class="gallery-container">
 
-    <div class="row">
-        <div class="col-md-4 mb-4 first-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 1.png" alt="L'image ne s'affiche pas" class="img-fluid">
-        </div>
-        <div class="col-md-4 mb-4">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 2.png" alt="L'image ne s'affiche pas" class="img-fluid">
-        </div>
-        <div class="col-md-4 mb-4">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 3.png" alt="L'image ne s'affiche pas" class="img-fluid">
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="col-md-4 mb-4">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 4.png" alt="L'image ne s'affiche pas"class="img-fluid">
-        </div>
-        <div class="col-md-4 mb-4">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 5.png" alt="L'image ne s'affiche pas" class="img-fluid">
-        </div>
-        <div class="col-md-4 mb-4">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 6.png" alt="L'image ne s'affiche pas" class="img-fluid">
-        </div>
+      <div class="gallery-item">
+        <a href="<?php echo '../vegetarien/kabukicho/'; ?>">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 1.png" alt="Image 1">
+          <p>Kabukicho</p>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="../vegetarien/kitchen-burger/">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 2.png" alt="Image 2">
+          <p>Kitchen Burger</p>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="../vegetarien/taormina/">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 3.png" alt="Image 3">
+          <p>Taormina</p>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="../vegetarien/el-paso-cocina/">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 4.png" alt="Image 4">
+          <p>El Paso Cocina</p>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="../vegetarien/sao-thai/">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 5.png" alt="Image 5">
+          <p>Sao Thaï</p>
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="../vegetarien/beijingya/">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 6.png" alt="Image 6">
+          <p>Beijingya</p>
+        </a>
+      </div>
     </div>
-</div>
+  
+
+
 
 
 <?php get_footer() ?> 
