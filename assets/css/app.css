@@ -39,7 +39,7 @@ body{
   border: 2px solid;
   border-color: #f89e71;
   padding: 10px;
-  border-radius: 15px 50px;
+  border-radius: 15px ;
   background-color: #F48248;
   text-decoration: none;
   color: black;
@@ -48,6 +48,7 @@ body{
  }
  .card a:hover{
   background-color: #bd5622;
+  border-color: #f89e71;
 
  }
  
@@ -73,6 +74,7 @@ body{
   
   .nav-item a:hover{
   background-color: #6f6d6c;
+  border-color: #636363
   }
   
   .card-body h3{

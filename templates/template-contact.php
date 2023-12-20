@@ -5,18 +5,22 @@
 <?php get_header(); ?>
 
 <style> 
-
-
 .contactez-nous {
-    width: 700px;
+    width: 80%;
+    max-width: 700px;
     border: 1px solid;
     border-radius: 8px;
-    padding: 0 50px 0 50px;
-    background-color: #449653;
+    padding: 0 20px;
+    background: #449653;
     margin-bottom: 7%;
-    
-    
+  }
+
+  @media (max-width: 768px) {
+    .contactez-nous {
+      width: 90%;
+      padding: 0 10px; 
     }
+  }
     
     .contactez-nous > h1 {
     font-weight: 500;
@@ -40,7 +44,7 @@
     }
     
     form div > input, form div > select, form div > textarea {
-    background-color: #C1E5C6  ;
+    background-color: #eee  ;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -75,8 +79,8 @@
     }
     
     form div > select option {
-    background: white;
-    color: #303030;
+    background: #606361;
+    color: #606361;
     }
     
     form div:last-child {
@@ -85,12 +89,10 @@
     }
     
     form button {
-    width: 450px;
-    max-width: 500px;
-    height: 60px;
+    
     font-weight: 700;
     font-size: 28px;
-    background: white;
+    background: #eee;
     border: rgba(48, 48, 48, 0.5) solid 1px;
     border-radius: 5px;
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
