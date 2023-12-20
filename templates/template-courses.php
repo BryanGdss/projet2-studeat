@@ -12,6 +12,8 @@
     $args_courses = array(
         'post_type' => 'courses',  
         'posts_per_page' => -1,
+        'orderby' => 'title',  
+        'order' => 'ASC', 
     );
 
     $coursesList = new WP_Query($args_courses);

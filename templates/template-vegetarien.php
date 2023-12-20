@@ -11,6 +11,8 @@
     $args_vegetariens = array(
         'post_type' => 'vegetarien',  
         'posts_per_page' => -1,
+        'orderby' => 'title',  
+        'order' => 'ASC', 
     );
 
     $VegetariensList = new WP_Query($args_vegetariens);

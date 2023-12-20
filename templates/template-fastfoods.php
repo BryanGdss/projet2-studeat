@@ -12,6 +12,8 @@
     $args_fastfoods = array(
         'post_type' => 'fastfoods',  
         'posts_per_page' => -1,
+        'orderby' => 'title',  
+        'order' => 'ASC', 
     );
 
     $fastfoodsList = new WP_Query($args_fastfoods);

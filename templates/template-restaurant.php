@@ -11,6 +11,8 @@
     $args_restaurants = array(
         'post_type' => 'restaurants',  
         'posts_per_page' => -1,
+        'orderby' => 'title',  
+        'order' => 'ASC', 
     );
 
     $restaurantsList = new WP_Query($args_restaurants);

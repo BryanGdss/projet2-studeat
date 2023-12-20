@@ -35,7 +35,7 @@
         <p class="card-text">Commandez un repas sain et pas cher, dans un restaurant à proximité de votre domicile dès
           maintenant.</p>
 
-        <a href="<?php echo 'commande'; ?>" class="btn btn-primary">Voir les offres ...</a>
+        <a  href="<?php echo 'commande'; ?>" class="btn btn-primary">Voir les offres ...</a>
       </div>
     </div>
   </div>
@@ -48,7 +48,7 @@
         <h5 class="card-title">Devenir livreur</h5>
         <p class="card-text">Devenir livreur bénévole et rejoignez la Stud' Eat Family remplie de jeunes motivés à faire
           bouger les choses !</p>
-        <a href="<?php echo 'livreur'; ?>" class="btn btn-primary">En savoir plus ...</a>
+        <a  href="<?php echo 'livreur'; ?>" class="btn btn-primary">En savoir plus ...</a>
       </div>
     </div>
   </div>

@@ -34,14 +34,23 @@ body{
   font-size: 1.5rem;
   }
   
-  .card a {
-  border-color: #883810;
+
+ .card a{
+  border: 2px solid;
+  border-color: #f89e71;
+  padding: 10px;
+  border-radius: 15px 50px;
   background-color: #F48248;
-  }
- 
-  .card a:hover{
+  text-decoration: none;
+  color: black;
+
+
+ }
+ .card a:hover{
   background-color: #bd5622;
-  }
+
+ }
+ 
   
   .text{
   font-family:Helvetica;
@@ -272,6 +281,7 @@ height: auto;
 
 
   }
+  
   
 
  

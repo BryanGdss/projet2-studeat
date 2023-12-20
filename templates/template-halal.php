@@ -11,6 +11,8 @@
     $args_halal = array(
         'post_type' => 'halal',  
         'posts_per_page' => -1,
+        'orderby' => 'title', 
+        'order' => 'ASC', 
     );
 
     $halalList = new WP_Query($args_halal);
