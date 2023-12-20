@@ -47,13 +47,13 @@
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/" class="d-block w-75" alt="L'image ne s'affiche pas">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/question1.png" class="d-block w-100 mx-auto" alt="L'image ne s'affiche pas">
     </div>
     <div class="carousel-item">
-      <img src="images/partenaire.png" class="d-block w-75" alt="L'image ne s'affiche pas">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/question2.png" class="d-block w-100 mx-auto" alt="L'image ne s'affiche pas">
     </div>
     <div class="carousel-item">
-      <img src="images/livreur.png" class="d-block w-75" alt="L'image ne s'affiche pas">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/question3.png" class="d-block w-100 mx-auto" alt="L'image ne s'affiche pas">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -65,6 +65,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
 
 
 
