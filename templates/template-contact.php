@@ -5,7 +5,7 @@
 <?php get_header(); ?>
 
 
-</style>
+
 <div class="contactez-nous">
 <h1>Contactez-nous</h1>
 <p>Un problème, une question, envie de nous envoyer un message d’amour ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
