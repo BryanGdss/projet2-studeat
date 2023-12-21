@@ -20,11 +20,6 @@
     <?php while ($halalList->have_posts()): $halalList->the_post(); ?>
         <div class="col-sm-4 d-flex">
             <div class="card" style="width: 100%;">
-                <?php
-                if (has_post_thumbnail()) {
-                    echo wp_get_attachment_image(get_post_thumbnail_id(), 'custom-thumbnail', false, ['class' => 'card-img-top', 'alt' => get_the_title(), 'style' => 'width: 100%; height: auto;']);
-                }
-                ?>
                 <div class="card-body">
                     <p class="card-text"><?php the_content(); ?></p>
                 </div>
@@ -34,6 +29,7 @@
 
     <?php wp_reset_postdata();?>
 </div>
+
 
 
 
