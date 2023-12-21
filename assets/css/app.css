@@ -187,7 +187,7 @@ body{
   align-items: center;
   
   }
-  
+ 
   .card-custom:hover{
   border-radius: 10%;
   border-color: #883810;
@@ -198,7 +198,9 @@ body{
   .card-custom a{
     text-decoration: none;
     color: white;
+ 
   }
+
   
   footer{
   font-family: Helvetica;
