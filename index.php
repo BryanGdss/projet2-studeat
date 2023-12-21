@@ -84,7 +84,7 @@
   <h2>Stud' Eat ?</h2>
   <h2>Pour qui ? pour quoi ?</h2>
   <br>
-  <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="row row-cols-1 row-cols-md-2 g-4 ">
     <div class="col">
       <div class="card">
         <div class="card-body">
@@ -125,7 +125,7 @@
 
             C’est pour cette raison que nous avons décidé de créer
             le service de revente d’invendus Stud’Eat.
-
+<br>
           </p>
         </div>
       </div>

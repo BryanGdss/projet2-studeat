@@ -6,11 +6,10 @@
 <?php get_header(); ?>
 
 <h1>Fast-foods</h1>
-
-<div class="row">
+<div class="row d-flex">
     <?php
     $args_fastfoods = array(
-        'post_type' => 'fastfoods',  
+        'post_type' => 'fast-foods',  
         'posts_per_page' => -1,
         'orderby' => 'title',  
         'order' => 'ASC', 
@@ -20,7 +19,7 @@
     ?>
 
     <?php while ($fastfoodsList->have_posts()): $fastfoodsList->the_post(); ?>
-        <div class="col-sm-4">
+        <div class="col-sm-4 d-flex">
             <div class="card" style="width: 100%;">
                 <?php
                 if (has_post_thumbnail()) {

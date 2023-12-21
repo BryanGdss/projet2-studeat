@@ -8,9 +8,9 @@
  ])
  ?>
 <ul class="Social-media">
-    <li class="RS" href="#"><i class="fab fa-facebook"></i></li>
-    <li class="RS" href="#"><i class="fab fa-twitter"></i></li>
-    <li class="RS" href="#"><i class="fab fa-instagram"></i></li>
+    <a href="https://www.facebook.com/"><li class="RS" ><i class="fab fa-facebook"></i></a>
+    <a href="https://twitter.com/"><li class="RS" ><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/"><li class="RS" ><i class="fab fa-instagram"></i></a>
 </ul>  
   <div>Copyright - 2023 <?php bloginfo('name') ?> Brussels. All rights reserved.</div>
   

@@ -34,7 +34,7 @@
               </div>
               <div class="col">
                 <div class="card-custom ">
-                <a href="fastfood"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/fastfood.png" class="d-block w-100" class="card-img-top" alt="L'image ne s'affiche pas" />
+                <a href="fast-food"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/fastfood.png" class="d-block w-100" class="card-img-top" alt="L'image ne s'affiche pas" />
                   <div class="card-body">
                     <h5 class="card-title">Fast-foods</h5>
                   </a>
@@ -57,45 +57,7 @@
 
 <br>
 
-<style>
-.gallery-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin: 20px;
-  }
 
-  .gallery-item {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-
-  .gallery-item img {
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    object-fit: cover;
-  }
-
-  .gallery-item:hover img {
-    transform: scale(1.1);
-  }
-
-  .gallery-item p {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 10px;
-    margin: 0;
-    color: black;
-  }
-
-</style>
 <h2>Restaurants à proximité</h2>
     <div class="gallery-container">
 

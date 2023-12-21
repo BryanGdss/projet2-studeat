@@ -43,7 +43,7 @@ function create_posttypes()
         'show_in_rest' => true,
         'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
     ]);
-    register_post_type('fastfoods', [
+    register_post_type('fast-foods', [
         'labels' => [
             'name' => __('Fastfoods'),
             'singular_name' => __('Fastfoods')

@@ -5,8 +5,7 @@
 <?php get_header(); ?>
 
 <h1>Restaurant</h1>
-
-<div class="row">
+<div class="row d-flex">
     <?php
     $args_restaurants = array(
         'post_type' => 'restaurants',  
@@ -19,7 +18,7 @@
     ?>
 
     <?php while ($restaurantsList->have_posts()): $restaurantsList->the_post(); ?>
-        <div class="col-sm-4">
+        <div class="col-sm-4 d-flex">
             <div class="card" style="width: 100%;">
                 <?php
                 if (has_post_thumbnail()) {
