@@ -65,37 +65,38 @@
       <div class="gallery-item">
         <a href="<?php echo '../vegetarien/kabukicho/'; ?>">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 1.png" alt="Image 1">
-          <p>Kabukicho</p>
+      
         </a>
       </div>
       <div class="gallery-item">
+      
         <a href="../vegetarien/kitchen-burger/">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 2.png" alt="Image 2">
-          <p>Kitchen Burger</p>
+          
         </a>
       </div>
       <div class="gallery-item">
         <a href="../vegetarien/taormina/">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 3.png" alt="Image 3">
-          <p>Taormina</p>
+         
         </a>
       </div>
       <div class="gallery-item">
         <a href="../vegetarien/el-paso-cocina/">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 4.png" alt="Image 4">
-          <p>El Paso Cocina</p>
+         
         </a>
       </div>
       <div class="gallery-item">
         <a href="../vegetarien/sao-thai/">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 5.png" alt="Image 5">
-          <p>Sao Thaï</p>
+         
         </a>
       </div>
       <div class="gallery-item">
         <a href="../vegetarien/beijingya/">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Image 6.png" alt="Image 6">
-          <p>Beijingya</p>
+          
         </a>
       </div>
     </div>

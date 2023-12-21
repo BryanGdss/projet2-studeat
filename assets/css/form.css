@@ -1,4 +1,4 @@
-
+/*moncompte*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
@@ -212,6 +212,8 @@
 
 
 
+/*contact*/
+
 .contactez-nous {
     width: 80%;
     max-width: 700px;
@@ -219,16 +221,17 @@
     border-radius: 8px;
     padding: 0 20px;
     background: #449653;
+    margin: 0 auto; 
     margin-bottom: 7%;
-  }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .contactez-nous {
-      width: 90%;
-      padding: 0 10px; 
+        width: 90%;
+        padding: 0 10px;
     }
-  }
-    
+}
+
     .contactez-nous > h1 {
     font-weight: 500;
     }
